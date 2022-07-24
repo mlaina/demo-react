@@ -1,14 +1,12 @@
 {
-  "name": "test-apis",
+  "name": "demo-react",
   "version": "1.0.0",
   "description": "",
   "main": "./src/App.jsx",
   "scripts": {
     "start": "webpack-dev-server --open --config ./webpack/webpack.local.js",
     "build:dev": "webpack --config ./webpack/webpack.dev.js",
-    "build:pre": "webpack --config ./webpack/webpack.pre.js",
     "build:pro": "webpack --config ./webpack/webpack.pro.js",
-    "build:pro-ou": "webpack --config ./webpack/webpack.pro-ou.js",
     "lint": "eslint src",
     "format": "prettier --write src",
     "test": "jest --watch",

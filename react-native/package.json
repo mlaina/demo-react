@@ -1,0 +1,42 @@
+{
+  "name": "demo-react",
+  "version": "1.0.0",
+  "main": "Native.jsx",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "apk:dev": "expo build:android -t apk --release-channel dev",
+    "apk:pre": "expo build:android -t apk --release-channel pre",
+    "apk:pro": "expo build:android -t apk --release-channel pro"
+  },
+  "dependencies": {
+    "expo": "~44.0.2",
+    "expo-constants": "^13.1.1",
+    "expo-splash-screen": "~0.14.1",
+    "expo-status-bar": "~1.2.0",
+    "expo-updates": "~0.11.7",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-web": "0.17.1",
+    "react-native-webview": "11.15.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true,
+  "expo": {
+    "name": "demo-react",
+    "slug": "demo-react",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": "",
+    "android": {
+      "package": "com.marcoslaina.demo-react"
+    }
+  }
+}
