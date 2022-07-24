@@ -1,0 +1,16 @@
+{
+  "name": "test-api-native",
+  "slug": "test-api-native",
+  "version": "1.0.0",
+  "assetBundlePatterns": ["**/*"],
+  "description": "",
+  "android": {
+    "package": "com.marcoslaina.testapi"
+  },
+  "splash": {
+    "image": "../public/images/backgrounds/login.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ccc"
+  },
+  "icon": "../public/app.png"
+}

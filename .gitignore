@@ -102,3 +102,38 @@ dist
 
 # TernJS port file
 .tern-port
+
+# dependencies
+./idea/
+/.pnp
+.pnp.js
+./husky/
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+/dist/
+/webpack/dist/
+.vscode
+/gen/out/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+*.pem
+
+package-lock.json
+yarn.lock
+
+/lsp/*
+.idea
+
+react-native/.expo/
+react-native/package-lock.json/
+react-native/node_modules/
